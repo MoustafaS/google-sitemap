@@ -16,6 +16,10 @@ namespace Utils.Sitemap
         public string Title { get; set; }
         public bool ShouldSerializeTitle() { return !string.IsNullOrEmpty(Title); }
 
+        [XmlElement("license")]
+        public string License { get; set; }
+        public bool ShouldSerializeLicense() { return !string.IsNullOrEmpty(License); }
+
         [XmlElement("geo_location")]
         public string GeoLocation { get; set; }
         public bool ShouldSerializeGeoLoacation() { return !string.IsNullOrEmpty(GeoLocation); }

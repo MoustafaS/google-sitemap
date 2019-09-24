@@ -1,0 +1,7 @@
+H:\Projects\Upwork\sitemap\google-sitemap\bin\Debug\Utils.Sitemap.exe.config
+H:\Projects\Upwork\sitemap\google-sitemap\bin\Debug\Utils.Sitemap.exe
+H:\Projects\Upwork\sitemap\google-sitemap\bin\Debug\Utils.Sitemap.pdb
+H:\Projects\Upwork\sitemap\google-sitemap\obj\Debug\Utils.Sitemap.csprojResolveAssemblyReference.cache
+H:\Projects\Upwork\sitemap\google-sitemap\obj\Debug\Utils.Sitemap.csproj.CoreCompileInputs.cache
+H:\Projects\Upwork\sitemap\google-sitemap\obj\Debug\Utils.Sitemap.exe
+H:\Projects\Upwork\sitemap\google-sitemap\obj\Debug\Utils.Sitemap.pdb

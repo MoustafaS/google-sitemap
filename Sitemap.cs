@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
+using static google_sitemap.Extensions;
 
 namespace Utils.Sitemap
 {
@@ -69,10 +70,11 @@ namespace Utils.Sitemap
 
         public string WriteSitemapToString()
         {
-            using (StringWriter sw = new StringWriter())
+            using (StringWriter sw = new Utf8StringWriter())
             {
                 XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
                 ns.Add("image", "http://www.google.com/schemas/sitemap-image/1.1");
+                ns.Add("video", "http://www.google.com/schemas/sitemap-video/1.1");
 
                 XmlSerializer xs = new XmlSerializer(typeof(Sitemap));
                 xs.Serialize(sw, this, ns);
